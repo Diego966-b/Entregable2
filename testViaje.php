@@ -139,7 +139,6 @@ do {
             } while ($opcionCambio <> 4);
         break;
         case 4:
-
             echo "Lista de pasajeros: \n";
             $listaPasajeros = $viaje -> mostrarPasajeros ();
             echo $listaPasajeros;
